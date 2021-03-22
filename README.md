@@ -9,3 +9,6 @@ Some CSS challenges from cssbattle.dev
 
 ## Batmickey
 ![batmickey](https://github.com/caionormando/css-battle-challenges/blob/main/Batmickey/batmickey_result.JPG)
+
+## Snake
+![batmickey](https://github.com/caionormando/css-battle-challenges/blob/main/Snake/snake_result.JPG)

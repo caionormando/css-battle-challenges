@@ -1,0 +1,139 @@
+<div class="head">
+  <div class="eye eye-left"></div>
+  <div class="eye eye-right"></div>
+  <div class="body-straight inverse inverse-front"></div>
+  <div class="body-straight body-front"></div>
+  <div class="body-straight inverse inverse-back"></div>
+  <div class="body-straight body-back"></div>
+  <div class="connector neck"></div>
+  <div class="connector neck-curve"></div>
+  <div class="connector body-connector-front"></div>
+  <div class="connector body-connector-back"></div>
+  <div class="connector tail"></div>
+</div>
+<style>
+
+  body {
+    background: #191919;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .head {
+    position: absolute;
+    right: 75px;
+    width: 50px;
+    height: 30px;
+    background: #E08027;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .eye {
+    position: absolute;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #191919;
+  }
+
+  .eye-left {
+    top: 2px;
+  }
+
+  .eye-right {
+    bottom: 2px;
+  }
+
+  .body-straight {
+    position: absolute;
+    width: 30px;
+    height: 180px;
+    top: -80px;
+    box-shadow: 0 0 0 10px #191919, 0 0 0 15px #E08027;
+    border-radius: 30px;
+    border: 5px solid #E08027;
+  }
+
+  .body-front, .inverse-back {
+    clip-path: polygon(-20px -20px, 60px -20px, 60px 100px, -20px 100px);
+  }
+
+  .body-back, .inverse-front {
+    clip-path: polygon(-20px -10px, 60px -20px, 60px 70px, -20px 70px);
+  }
+
+  .inverse {
+    transform: rotate(180deg);
+  }
+
+  .body-front {
+    right: 145px;
+  }
+
+  .inverse-front{
+    right: 95px;
+  }
+
+  .body-back{
+    right: 245px;
+  }
+
+  .inverse-back{
+    right: 195px;
+  }
+
+  .connector{
+    position: absolute;
+    border: 5px #E08027;
+  }
+
+  .neck {
+    width: 20px;
+    height: 10px;
+    border-style: solid none;
+    right: 45px;
+    top: 5px;
+  }
+
+  .body-connector-front, .body-connector-back {
+    width: 10px;
+    height: 20px;
+    border-style: none solid;
+  }
+
+  .body-connector-front {
+    right: 130px;
+    top: 20px;
+  }
+
+  .body-connector-back {
+    right: 230px;
+    top: -10px;
+  }
+
+  .neck-curve, .tail {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 0 10px #191919, 0 0 0 15px #E08027;
+    border-radius: 30px;
+    border-style: solid;
+    clip-path: polygon(-60% -60%, 50% -60%, 50% 50%, -60% 50%);
+  }
+
+  .neck-curve {
+    right: 45px;
+    top: 20px;
+  }
+
+  .tail {
+    right: 295px;
+    top: -30px;
+    transform: rotate(-180deg);
+  }
+
+</style>
