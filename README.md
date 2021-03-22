@@ -1,5 +1,5 @@
-# css-battle-challenges
-Some CSS challenges from cssbattle.dev
+# CSS Battle Challenges
+[Css Battle](https://cssbattle.dev) is a platform where you can develop CSS challenges in countdown battles. It's a brilliant place to enhance CSS skills and learn new stuff.
 
 ## Elephant
 ![elephant](https://github.com/caionormando/css-battle-challenges/blob/main/Elephant/elephant_result.jpeg)
