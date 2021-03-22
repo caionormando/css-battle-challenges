@@ -1,23 +1,24 @@
 <div class="container">
   <div class="head">
-    <div class="eye-left">
+    <div class="eye eye-left">
       <div class="eye-globe"></div>
     </div>
-    <div class="eye-right">
+    <div class="eye eye-right">
       <div class="eye-globe"></div>
     </div>
     <div class="tusk"></div>
     <div class="trunk"></div>
-    <div class="left-ear">
-      <div class="left-ear-interior"></div>
+    <div class="ear left-ear">
+      <div class="ear-interior left-ear-interior"></div>
     </div>
-    <div class="right-ear">
-      <div class="right-ear-interior"></div>
+    <div class="ear right-ear">
+      <div class="ear-interior right-ear-interior"></div>
     </div>
   </div>
 </div>
 
 <style>
+  
   body {
     background: #998235;
   }
@@ -37,20 +38,13 @@
     border-radius: 100%;
   }
 
-  .eye-left {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    background: #998235;
-    height: 20px;
-    width: 40px;
-    top: 90px;
-    left: 40px;
+  .eye,
+  .eye-globe {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    border-bottom: 0;
   }
-  .eye-right {
+
+  .eye {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -58,29 +52,35 @@
     height: 20px;
     width: 40px;
     top: 90px;
+  }
+
+  .eye-left {
+    left: 40px;
+  }
+
+  .eye-right {
     right: 40px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom: 0;
   }
 
   .eye-globe {
     background: #0b2429;
     width: 20px;
     height: 10px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+  }
+
+  .tusk,
+  .trunk {
+    position: absolute;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
   }
 
   .tusk {
-    position: absolute;
     width: 120px;
     height: 60px;
     top: 130px;
     left: 30px;
     border: solid 20px #fff;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
     border-bottom: 0;
     box-sizing: border-box;
   }
@@ -89,48 +89,41 @@
     width: 40px;
     height: 120px;
     background: #0b2429;
-    position: absolute;
     top: 120px;
     left: 70px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
+  }
+
+  .ear {
+    position: absolute;
+    background: #1a4341;
+    width: 80px;
+    height: 180px;
+    border-radius: 100%;
+    z-index: -1;
   }
 
   .left-ear {
-    position: absolute;
     left: -59px;
-    background: #1a4341;
-    width: 80px;
-    height: 180px;
-    border-radius: 100%;
-    z-index: -1;
   }
+
   .right-ear {
-    position: absolute;
     right: -59px;
-    background: #1a4341;
-    width: 80px;
-    height: 180px;
-    border-radius: 100%;
-    z-index: -1;
+  }
+
+  .ear-interior {
+    position: absolute;
+    top: 3px;
+    background: #0b2429;
+    width: 58px;
+    height: 175px;
+    border-radius: 60%;
   }
 
   .left-ear-interior {
-    position: absolute;
     left: 18px;
-    top: 3px;
-    background: #0b2429;
-    width: 58px;
-    height: 175px;
-    border-radius: 60%;
   }
+
   .right-ear-interior {
-    position: absolute;
     right: 18px;
-    top: 3px;
-    background: #0b2429;
-    width: 58px;
-    height: 175px;
-    border-radius: 60%;
   }
 </style>
