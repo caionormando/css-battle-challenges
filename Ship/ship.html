@@ -1,0 +1,80 @@
+<div class="middle">
+  <div class="top"></div>
+  <div class="bow-left"></div>
+  <div class="bow-right"></div>
+  <div class="bow-middle"></div>
+  <div class="base-top"></div>
+  <div class="base-bottom"></div>
+</div>
+
+<style>
+  body {
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .middle {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 80px;
+    height: 50px;
+    border: 9px #5dbcf9;
+    border-style: solid solid none solid;
+    margin-bottom: 50px;
+  }
+  .top {
+    position: absolute;
+    top: -39px;
+    margin: auto;
+    width: 30px;
+    height: 25px;
+    border: 9px #5dbcf9;
+    border-style: solid solid none solid;
+  }
+  .bow-left {
+    position: absolute;
+    border: 10px #5dbcf9;
+    border-style: solid none none solid;
+    width: 78px;
+    height: 20px;
+    transform: rotate(-30deg);
+    top: 40px;
+    left: -35px;
+  }
+  .bow-right {
+    position: absolute;
+    border: 10px #5dbcf9;
+    border-style: solid solid none none;
+    width: 78px;
+    height: 20px;
+    transform: rotate(30deg);
+    top: 40px;
+    right: -35px;
+  }
+
+  .bow-middle {
+    position: absolute;
+    border: 5px #5dbcf9;
+    border-style: none solid solid;
+    height: 54px;
+    top: 30px;
+  }
+
+  .base-top {
+    position: absolute;
+    border: 10px #5dbcf9;
+    border-style: none solid solid;
+    width: 180px;
+    top: 99px;
+  }
+
+  .base-bottom {
+    position: absolute;
+    border: 9px #5dbcf9;
+    border-style: none solid solid;
+    width: 90px;
+    top: 119px;
+  }
+</style>
