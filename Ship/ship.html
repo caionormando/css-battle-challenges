@@ -1,19 +1,21 @@
 <div class="middle">
   <div class="top"></div>
-  <div class="bow-left"></div>
-  <div class="bow-right"></div>
+  <div class="bow bow-left"></div>
+  <div class="bow bow-right"></div>
   <div class="bow-middle"></div>
   <div class="base-top"></div>
   <div class="base-bottom"></div>
 </div>
 
 <style>
+    
   body {
     background: #191919;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .middle {
     display: flex;
     justify-content: center;
@@ -24,6 +26,7 @@
     border-style: solid solid none solid;
     margin-bottom: 50px;
   }
+
   .top {
     position: absolute;
     top: -39px;
@@ -33,24 +36,24 @@
     border: 9px #5dbcf9;
     border-style: solid solid none solid;
   }
-  .bow-left {
+
+  .bow {
     position: absolute;
     border: 10px #5dbcf9;
-    border-style: solid none none solid;
     width: 78px;
     height: 20px;
-    transform: rotate(-30deg);
     top: 40px;
+  }
+
+  .bow-left {
+    border-style: solid none none solid;
+    transform: rotate(-30deg);
     left: -35px;
   }
+
   .bow-right {
-    position: absolute;
-    border: 10px #5dbcf9;
     border-style: solid solid none none;
-    width: 78px;
-    height: 20px;
     transform: rotate(30deg);
-    top: 40px;
     right: -35px;
   }
 
