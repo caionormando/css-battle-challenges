@@ -1,0 +1,113 @@
+<div class="ear-left"></div>
+<div class="ear-right"></div>
+<div class="head">
+  <div class="hair"></div>
+  <div class="mouth">
+    <div class="eye-left"></div>
+    <div class="eye-right"></div>
+    <div class="moustache moustache-left"></div>
+    <div class="moustache moustache-middle"></div>
+    <div class="moustache moustache-right"></div>
+  </div>
+</div>
+<style>
+    
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3ac3c;
+  }
+
+  .head {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #998235;
+    border-radius: 100% 100% 80% 80%;
+    overflow: hidden;
+  }
+
+  .mouth {
+    position: relative;
+    margin: auto;
+    background: #fff;
+    width: 100px;
+    height: 40px;
+    top: 95px;
+    border: 1px solid #fff;
+    border-radius: 10px 10px 30px 30px;
+  }
+
+  .moustache {
+    position: absolute;
+    top: 10px;
+    width: 40px;
+    height: 20px;
+    border: solid 10px #1a4341;
+    border-top: 0;
+    border-radius: 0 0 30px 30px;
+    box-sizing: border-box;
+  }
+
+  .moustache-left {
+    left: 15px;
+  }
+
+  .moustache-right {
+    right: 15px;
+  }
+
+  .moustache-middle {
+    width: 0px;
+    height: 30px;
+    border: solid 5px #1a4341;
+    top: -11px;
+    left: 45px;
+    border-radius: 0;
+  }
+
+  .eye-left,
+  .eye-right {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #1a4341;
+    border-radius: 100%;
+    top: -36px;
+  }
+
+  .eye-right {
+    right: 0;
+  }
+
+  .ear-left,
+  .ear-right {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    top: 75px;
+
+    background: #1a4341;
+    box-shadow: 0 0 0 10px #998235;
+  }
+
+  .ear-left {
+    left: 125px;
+  }
+
+  .ear-right {
+    right: 125px;
+  }
+
+  .hair {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -12px;
+    right: 60px;
+    background: #1a4341;
+    transform: rotate(45deg);
+  }
+</style>

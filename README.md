@@ -20,3 +20,6 @@
 
 ## Frog
 ![frog](https://github.com/caionormando/css-battle-challenges/blob/main/Frog/frog_result.JPG)
+
+## Tiger
+![tiger](https://github.com/caionormando/css-battle-challenges/blob/main/Tiger/tiger_result.jpeg)
