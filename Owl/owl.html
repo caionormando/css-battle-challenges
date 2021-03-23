@@ -1,0 +1,75 @@
+<div class="left-eye">
+  <div class="eye-globe">
+    <div class="eye-interior"></div>
+  </div>
+  <div class="left-eye-detail"></div>
+</div>
+<div class="right-eye">
+  <div class="eye-globe">
+    <div class="eye-interior"></div>
+  </div>
+</div>
+
+<style>
+
+  body {
+    background: #191919;
+  }
+
+  .left-eye,
+  .right-eye {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 77px;
+    width: 115px;
+    height: 115px;
+    background: #e08027;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+  }
+
+  .left-eye {
+    left: 90px;
+    border-top-right-radius: 100%;
+  }
+
+  .right-eye {
+    right: 85px;
+    border-top-left-radius: 100%;
+    box-shadow: 0 0 0 10px #191919;
+  }
+
+  .eye-globe {
+    position: relative;
+    width: 92px;
+    height: 92px;
+    background: #191919;
+    border-radius: 100%;
+  }
+
+  .eye-interior {
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    top: 36px;
+    left: 30px;
+    border: solid 9px #e08027;
+    border-bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-sizing: border-box;
+  }
+
+  .left-eye-detail {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #e08027;
+    transform: rotate(-45deg);
+    top: 86px;
+    left: 85px;
+  }
+  
+</style>

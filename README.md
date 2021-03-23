@@ -11,4 +11,7 @@
 ![batmickey](https://github.com/caionormando/css-battle-challenges/blob/main/Batmickey/batmickey_result.JPG)
 
 ## Snake
-![batmickey](https://github.com/caionormando/css-battle-challenges/blob/main/Snake/snake_result.JPG)
+![snake](https://github.com/caionormando/css-battle-challenges/blob/main/Snake/snake_result.JPG)
+
+## Owl
+![owl](https://github.com/caionormando/css-battle-challenges/blob/main/Owl/owl_result.JPG)
