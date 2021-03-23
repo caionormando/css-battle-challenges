@@ -1,0 +1,72 @@
+<div class="head-dark">
+  <div class="head-light"></div>
+</div>
+<div class="eye left-eye"></div>
+<div class="eye right-eye"></div>
+<div class="nostril left-nostril"></div>
+<div class="nostril right-nostril"></div>
+
+<style>
+
+  body {
+    display: flex;
+    justify-content: center;
+    background: #293462;
+  }
+
+  .head-dark {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 110px;
+    width: 150px;
+    height: 100px;
+    background: #a64942;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  .eye,
+  .nostril {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #293462;
+  }
+
+  .eye {
+    box-shadow: 0 0 0 10px #fff1c1, 0 0 0 20px #fe5f55;
+    top: 105px;
+  }
+
+  .left-eye {
+    left: 160px;
+  }
+
+  .right-eye {
+    right: 160px;
+  }
+
+  .nostril {
+    top: 160px;
+  }
+
+  .left-nostril {
+    left: 185px;
+  }
+
+  .right-nostril {
+    right: 185px;
+  }
+
+  .head-light {
+    position: absolute;
+    width: 210px;
+    height: 100px;
+    top: -30px;
+    background: #fe5f55;
+    border-radius: 50%;
+  }
+
+</style>
