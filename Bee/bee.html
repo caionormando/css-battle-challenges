@@ -1,0 +1,77 @@
+<div class="left-wing"></div>
+<div class="right-wing"></div>
+<div class="bee-body">
+  <div class="eye"></div>
+  <div class="right-stripe"></div>
+  <div class="left-stripe"></div>
+  <div class="back-stripe"></div>
+</div>
+<style>
+  body {
+    background: #998235;
+    display: flex;
+    justify-content: center;
+  }
+
+  .left-wing,
+  .right-wing {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background: #fff;
+    top: 75px;
+  }
+
+  .left-wing {
+    left: 125px;
+    border-radius: 100% 100% 0 100%;
+  }
+
+  .right-wing {
+    right: 125px;
+    border-radius: 100% 100% 100% 0;
+  }
+
+  .bee-body {
+    position: absolute;
+    background: #eff33c;
+    width: 150px;
+    height: 75px;
+    top: 150px;
+    border-radius: 80px;
+  }
+
+  .eye {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: #191919;
+    left: 115px;
+    top: 20px;
+  }
+
+  .right-stripe,
+  .left-stripe,
+  .back-stripe {
+    position: absolute;
+    width: 25px;
+    height: 75px;
+    background: #191919;
+  }
+
+  .right-stripe {
+    left: 70px;
+  }
+
+  .left-stripe {
+    left: 35px;
+  }
+
+  .back-stripe {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    clip-path: polygon(0% 100%, 33% 100%, 33% 0%, 0% 0%);
+  }
+</style>

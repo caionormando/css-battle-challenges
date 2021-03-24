@@ -1,0 +1,49 @@
+<div class="circle"></div>
+<div class="semi-circle"></div>
+<div class="left-border"></div>
+<div class="right-border"></div>
+
+<style>
+  body {
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: #e08027;
+    box-shadow: 0 0 0 30px #824b20;
+  }
+
+  .semi-circle {
+    position: absolute;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 120px;
+    height: 120px;
+    border: solid 20px rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0) #fff58f #fff58f rgba(0, 0, 0, 0);
+    border-right-color: #fff58f;
+    transform: rotate(45deg);
+  }
+
+  .left-border,
+  .right-border {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #fff58f;
+    top: 140px;
+  }
+  .left-border {
+    left: 140px;
+  }
+
+  .right-border {
+    right: 140px;
+  }
+</style>
