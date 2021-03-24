@@ -31,31 +31,31 @@
 
 ### _Challenge #12_
 
-#### **Ship**
+ - #### **Ship**
 ---
 ![ship](https://github.com/caionormando/css-battle-challenges/blob/main/Ship/ship_result.JPG)
 ---
 <br>
 
-#### **Sunset**
+- #### **Sunset**
 ---
 ![sunset](https://github.com/caionormando/css-battle-challenges/blob/main/Sunset/sunset_results.JPG)
 ---
 <br>
 
-#### **Command-Key**
+- #### **Command-Key**
 ---
 ![commandkey](https://github.com/caionormando/css-battle-challenges/blob/main/CommandKey/command-key-results.JPG)
 ---
 <br>
 
-#### **Door-knob**
+- #### **Door-knob**
 ---
 ![doorknob](https://github.com/caionormando/css-battle-challenges/blob/main/DoorKnob/door_knob_result.JPG)
 ---
 <br>
 
-#### **Batmickey**
+- #### **Batmickey**
 ---
 ![batmickey](https://github.com/caionormando/css-battle-challenges/blob/main/Batmickey/batmickey_result.JPG)
 ---
@@ -65,49 +65,49 @@
 ### _Challenge #13_
 <br>
 
-#### **Owl**
+- #### **Owl**
 ---
 ![owl](https://github.com/caionormando/css-battle-challenges/blob/main/Owl/owl_result.JPG)
 ---
 <br>
 
-#### **Frog**
+- #### **Frog**
 ---
 ![frog](https://github.com/caionormando/css-battle-challenges/blob/main/Frog/frog_result.JPG)
 ---
 <br>
 
-#### **Elephant**
+- #### **Elephant**
 ---
 ![elephant](https://github.com/caionormando/css-battle-challenges/blob/main/Elephant/elephant_result.jpeg)
 ---
 <br>
 
-#### **Sheep**
+- #### **Sheep**
 ---
 ![sheep](https://github.com/caionormando/css-battle-challenges/blob/main/Sheep/sheep_result.JPG)
 ---
 <br>
 
-#### **Tiger**
+- #### **Tiger**
 ---
 ![tiger](https://github.com/caionormando/css-battle-challenges/blob/main/Tiger/tiger_result.jpeg)
 ---
 <br>
 
-#### **Snake**
+- #### **Snake**
 ---
 ![snake](https://github.com/caionormando/css-battle-challenges/blob/main/Snake/snake_result.JPG)
 ---
 <br>
 
-#### **Hippo**
+- #### **Hippo**
 ---
 ![hippo](https://github.com/caionormando/css-battle-challenges/blob/main/Hippo/hippo_result.JPG)
 ---
 <br>
 
-#### **Bee**
+- #### **Bee**
 ---
 ![bee](https://github.com/caionormando/css-battle-challenges/blob/main/Bee/bee_result.JPG)
 ---
