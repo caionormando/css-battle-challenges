@@ -50,7 +50,7 @@
 
 ![batmickey](https://github.com/caionormando/css-battle-challenges/blob/main/Batmickey/batmickey_result.JPG)
 
-### _Challenge #13_
+## _Challenge #13_
 
 #### **Owl**
 
