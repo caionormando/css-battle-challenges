@@ -14,6 +14,7 @@
 - [Command Key](#Command-Key)
 - [Door knob](#Door-Knob)
 - [Batmickey](#Batmickey)
+- [Buzzer](#Buzzer)
 
 
 ## _Challenge #13_
