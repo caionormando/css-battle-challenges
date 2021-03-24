@@ -1,0 +1,152 @@
+<div class="face">
+  <div class="hair left-hair"></div>
+  <div class="hair top-hair"></div>
+  <div class="hair right-hair"></div>
+  <div class="left-eye"></div>
+  <div class="right-eye"></div>
+</div>
+
+<div class="wool wool-left"></div>
+<div class="wool wool-right"></div>
+<div class="wool wool-top"></div>
+<div class="wool wool-bottom"></div>
+<div class="wool wool-bottom-left"></div>
+<div class="wool wool-bottom-right"></div>
+<div class="wool wool-top-left"></div>
+<div class="wool wool-top-right"></div>
+
+<style>
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #243d83;
+  }
+
+  .face {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border: solid 10px #6592cf;
+    border-top: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .hair {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: solid 20px #6592cf;
+    border-radius: 100%;
+  }
+
+  .left-hair,
+  .right-hair {
+    top: -57.5px;
+  }
+
+  .left-hair {
+    left: -55px;
+  }
+
+  .right-hair {
+    right: -55px;
+  }
+
+  .top-hair {
+    top: -75px;
+    left: -10px;
+  }
+
+  .left-eye,
+  .right-eye {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #6592cf;
+    border-radius: 100%;
+    top: 20px;
+  }
+
+  .left-eye {
+    left: 15px;
+  }
+
+  .right-eye {
+    right: 15px;
+  }
+
+  .wool {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    background: #6592cf;
+  }
+
+  .wool-left,
+  .wool-right {
+    top: 115px;
+    clip-path: polygon(0% 0%, 70% 0%, 81% 100%, 0% 100%);
+  }
+
+  .wool-left {
+    left: 115px;
+  }
+
+  .wool-right {
+    right: 115px;
+    transform: rotate(180deg);
+  }
+
+  .wool-top,
+  .wool-bottom {
+    clip-path: polygon(0% 0%, 70% 0%, 70% 100%, 0% 100%);
+  }
+
+  .wool-top {
+    top: 65px;
+    transform: rotate(90deg);
+  }
+
+  .wool-bottom {
+    bottom: 65px;
+    transform: rotate(-90deg);
+  }
+
+  .wool-bottom-left,
+  .wool-bottom-right {
+    bottom: 85px;
+    clip-path: polygon(0% 0%, 80% 0%, 80% 100%, 0% 100%);
+  }
+
+  .wool-bottom-left {
+    left: 130px;
+    transform: rotate(-45deg);
+  }
+
+  .wool-bottom-right {
+    right: 130px;
+    transform: rotate(235deg);
+  }
+
+  .wool-top-left,
+  .wool-top-right {
+    top: 80px;
+    clip-path: polygon(0% 0%, 70% 0%, 70% 100%, 0% 100%);
+  }
+
+  .wool-top-left {
+    left: 135px;
+    transform: rotate(45deg);
+  }
+
+  .wool-top-right {
+    right: 135px;
+    transform: rotate(135deg);
+  }
+</style>
