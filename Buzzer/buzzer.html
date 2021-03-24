@@ -1,0 +1,42 @@
+<div class="buzzer-square"></div>
+<div class="buzzer-triangle"></div>
+<div class="soundwave"></div>
+<style>
+  body {
+    background: #191919;
+  }
+
+  .buzzer-square {
+    position: absolute;
+    top: 125px;
+    left: 75px;
+    width: 57px;
+    height: 50px;
+    background: #5dbcf9;
+    border-radius: 10px;
+  }
+
+  .buzzer-triangle {
+    position: absolute;
+    top: 79px;
+    left: 129px;
+    width: 142px;
+    height: 142px;
+    background: #5dbcf9;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+    transform: rotate(-45deg);
+  }
+
+  .soundwave {
+    width: 80px;
+    height: 80px;
+    background: #191919;
+    border-radius: 100%;
+    position: absolute;
+    top: 110px;
+    left: 185px;
+    box-shadow: 0 0 0 10px #5dbcf9, 0 0 0 25px #191919, 0 0 0 35px #5dbcf9,
+      0 0 0 50px #191919, 0 0 0 60px #5dbcf9;
+    clip-path: polygon(50% -100%, 170% -100%, 180% 170%, 50% 180%);
+  }
+</style>
