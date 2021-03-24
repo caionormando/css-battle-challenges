@@ -16,6 +16,7 @@
 - [Command Key](#Command-Key)
 - [Sunset](#Sunset)
 - [Sheep](#Sheep)
+- [Hippo](#Hippo)
 
 ### Elephant
 
@@ -56,3 +57,7 @@
 ### Sheep
 
 ![sheep](https://github.com/caionormando/css-battle-challenges/blob/main/Sheep/sheep_result.JPG)
+
+### Hippo
+
+![hippo](https://github.com/caionormando/css-battle-challenges/blob/main/Hippo/hippo_result.JPG)

@@ -1,0 +1,103 @@
+<div class="left-ear"></div>
+<div class="right-ear"></div>
+
+<div class="light-base">
+  <div class="left-eye"></div>
+  <div class="right-eye"></div>
+</div>
+
+<div class="dark-base">
+  <div class="left-nostril"></div>
+  <div class="right-nostril"></div>
+</div>
+
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    background: #191919;
+  }
+
+  .left-ear,
+  .right-ear {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    background: #000;
+    box-shadow: 0 0 0 5px #fe5f55;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    top: 75px;
+  }
+
+  .left-ear {
+    transform: rotate(-40deg);
+    left: 157px;
+  }
+
+  .right-ear {
+    transform: rotate(40deg);
+    right: 157px;
+  }
+
+  .dark-base,
+  .light-base {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .dark-base {
+    top: 145px;
+    width: 150px;
+    height: 100px;
+    background: #a64942;
+    border-radius: 55px 55px 45px 45px;
+  }
+
+  .light-base {
+    top: 72.5px;
+    height: 105px;
+    width: 130px;
+    background: #fe5f55;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+  }
+
+  .left-eye,
+  .right-eye {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 100%;
+    top: 52px;
+  }
+
+  .left-eye {
+    left: 25px;
+  }
+
+  .right-eye {
+    right: 25px;
+  }
+
+  .left-nostril,
+  .right-nostril {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    background: #000;
+    top: 17px;
+    clip-path: ellipse(25% 40% at 50% 50%);
+  }
+
+  .left-nostril {
+    left: 15px;
+    transform: rotate(45deg);
+  }
+
+  .right-nostril {
+    right: 15px;
+    transform: rotate(-45deg);
+  }
+</style>
