@@ -4,9 +4,9 @@
 
 \*_Left side is my code output; right side is the target._
 
-## Challenges
+# Challenges
 
-### Challenge #12
+## _Challenge #12_
 
 - [Ship](#Ship)
 - [Sunset](#Sunset)
@@ -15,7 +15,7 @@
 - [Batmickey](#Batmickey)
 
 
-### Challenge #13
+## _Challenge #13_
 
 - [Owl](#Owl)
 - [Frog](#Frog)
@@ -26,9 +26,9 @@
 - [Hippo](#Hippo)
 - [Bee](#Bee)
 
-## Challenge results
+# Challenge results
 
-### Challenge #12
+## _Challenge #12_
 
 #### **Ship**
 
@@ -50,7 +50,7 @@
 
 ![batmickey](https://github.com/caionormando/css-battle-challenges/blob/main/Batmickey/batmickey_result.JPG)
 
-### Challenge #13
+### _Challenge #13_
 
 #### **Owl**
 
