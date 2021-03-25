@@ -1,0 +1,38 @@
+<div class="blue-circle">
+  <div class="light-blue-quarter"></div>
+</div>
+<div class="yellow-rect"></div>
+<style>
+  body {
+    background: #191919;
+    display: flex;
+    justify-content: center;
+  }
+  .blue-circle {
+    width: 150px;
+    height: 150px;
+    background: #4f77ff;
+    border-radius: 100%;
+    margin-top: 42px;
+  }
+
+  .light-blue-quarter {
+    position: absolute;
+    top: 50px;
+    width: 150px;
+    height: 150px;
+    background: #9ad5ff;
+    border-radius: 100%;
+    clip-path: polygon(0% 50%, 50% 50%, 50% 100%, 0% 100%);
+  }
+
+  .yellow-rect {
+    position: absolute;
+    width: 75px;
+    height: 120px;
+    background: #f9e492;
+    top: 130px;
+    left: 125px;
+    z-index: -1;
+  }
+</style>

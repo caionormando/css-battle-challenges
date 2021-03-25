@@ -7,6 +7,10 @@
 # Challenges
 <br>
 
+## _Challenge #11_
+
+- [Pastel Logo](#Pastel-Logo)
+
 ## _Challenge #12_
 
 - [Ship](#Ship)
@@ -32,6 +36,16 @@
 
 # Challenge results
 
+### _Challenge #11_
+
+- #### **Pastel Logo**
+---
+![pastelLogo](https://github.com/caionormando/css-battle-challenges/blob/main/PastelLogo/pastel_logo_result.JPG)
+---
+<br>
+<br>
+
+-----
 ### _Challenge #12_
 
  - #### **Ship**
