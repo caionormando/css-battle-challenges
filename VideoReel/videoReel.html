@@ -1,0 +1,80 @@
+<div class="square square-1-top"></div>
+<div class="square square-1-middle"></div>
+<div class="square square-1-bottom"></div>
+<div class="square square-2-top"></div>
+<div class="square square-2-middle"></div>
+<div class="square square-2-bottom"></div>
+<div class="square square-3-top"></div>
+<div class="square square-3-middle"></div>
+<div class="square square-3-bottom"></div>
+<div class="square square-4-top"></div>
+<div class="square square-4-middle"></div>
+<div class="square square-4-bottom"></div>
+<style>
+  body {
+    background: #191919;
+  }
+
+  .square {
+    position: absolute;
+    width: 140px;
+    height: 110px;
+    background: #191919;
+    border: solid #5dbcf9;
+    border-width: 20px 5px;
+  }
+
+  .square-1-top,
+  .square-1-middle,
+  .square-1-bottom {
+    left: -100px;
+  }
+
+  .square-1-top,
+  .square-3-top {
+    top: -50px;
+  }
+
+  .square-1-middle,
+  .square-3-middle {
+    top: 100px;
+  }
+
+  .square-1-bottom,
+  .square-3-bottom {
+    top: 250px;
+  }
+
+  .square-2-top,
+  .square-2-middle,
+  .square-2-bottom {
+    left: 50px;
+  }
+
+  .square-2-top,
+  .square-4-top {
+    top: -100px;
+  }
+
+  .square-2-middle,
+  .square-4-middle {
+    top: 50px;
+  }
+
+  .square-2-bottom,
+  .square-4-bottom {
+    top: 200px;
+  }
+
+  .square-3-top,
+  .square-3-middle,
+  .square-3-bottom {
+    right: 50px;
+  }
+
+  .square-4-top,
+  .square-4-middle,
+  .square-4-bottom {
+    right: -100px;
+  }
+</style>

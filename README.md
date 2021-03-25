@@ -12,9 +12,10 @@
 - [Ship](#Ship)
 - [Sunset](#Sunset)
 - [Command Key](#Command-Key)
-- [Door knob](#Door-Knob)
+- [Door Knob](#Door-Knob)
 - [Batmickey](#Batmickey)
 - [Buzzer](#Buzzer)
+- [Video Reel](#Video-Reel)
 - [Bell](#Bell)
 
 
@@ -66,6 +67,12 @@
 - #### **Buzzer**
 ---
 ![buzzer](https://github.com/caionormando/css-battle-challenges/blob/main/Buzzer/buzzer_result.JPG)
+---
+<br>
+
+- #### **Video-Reel**
+---
+![videoReel](https://github.com/caionormando/css-battle-challenges/blob/main/VideoReel/video_reel_result.JPG)
 ---
 <br>
 
