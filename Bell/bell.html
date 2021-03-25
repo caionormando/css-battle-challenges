@@ -1,0 +1,40 @@
+<div class="bell">
+  <div class="upper-circle"></div>
+  <div class="bottom-circle"></div>
+</div>
+
+<style>
+  body {
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bell {
+    width: 120px;
+    height: 120px;
+    background: #e08027;
+    border-radius: 50% 50% 8% 8%;
+  }
+
+  .upper-circle,
+  .bottom-circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    left: 175px;
+    z-index: -1;
+  }
+
+  .upper-circle {
+    top: 66px;
+    background: #f2ad43;
+  }
+
+  .bottom-circle {
+    bottom: 65px;
+    background: #824b20;
+  }
+</style>

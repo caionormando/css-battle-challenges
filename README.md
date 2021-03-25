@@ -15,6 +15,7 @@
 - [Door knob](#Door-Knob)
 - [Batmickey](#Batmickey)
 - [Buzzer](#Buzzer)
+- [Bell](#Bell)
 
 
 ## _Challenge #13_
@@ -66,6 +67,13 @@
 ---
 ![buzzer](https://github.com/caionormando/css-battle-challenges/blob/main/Buzzer/buzzer_result.JPG)
 ---
+<br>
+
+- #### **Bell**
+---
+![bell](https://github.com/caionormando/css-battle-challenges/blob/main/Bell/bell_result.JPG)
+---
+<br>
 <br>
 
 -----
