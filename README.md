@@ -12,6 +12,7 @@
 - [Pastel Logo](#Pastel-Logo)
 - [Black Lives Matter](#Black-Lives-Matter)
 - [Windmill](#Windmill)
+- [Skull](#Skull)
 
 ## _Challenge #12_
 
@@ -55,6 +56,12 @@
 - #### **Windmill**
 ---
 ![windmill](https://github.com/caionormando/css-battle-challenges/blob/main/Windmill/windmill_result.JPG)
+---
+<br>
+
+- #### **Skull**
+---
+![skull](https://github.com/caionormando/css-battle-challenges/blob/main/Skull/skull_result.JPG)
 ---
 <br>
 

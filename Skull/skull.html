@@ -1,0 +1,86 @@
+<div class="head">
+  <div class="left-eye"></div>
+  <div class="right-eye"></div>
+</div>
+<div class="mouth">
+  <div class="tooth"></div>
+</div>
+<div class="nose"></div>
+<style>
+  body {
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .head {
+    position: relative;
+    width: 120px;
+    height: 100px;
+    background: #4f77ff;
+    border-radius: 70px 70px 12px 12px;
+    margin-bottom: 30px;
+  }
+
+  .left-eye,
+  .right-eye,
+  .nose {
+    position: absolute;
+    border-radius: 100%;
+    background: #191919;
+  }
+
+  .left-eye,
+  .right-eye {
+    width: 40px;
+    height: 40px;
+    top: 53px;
+  }
+
+  .left-eye {
+    left: 15px;
+  }
+
+  .right-eye {
+    right: 15px;
+  }
+
+  .mouth {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    background: #4f77ff;
+    top: 185px;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .nose {
+    width: 20px;
+    height: 20px;
+    top: 176px;
+  }
+
+  .tooth,
+  .tooth:before,
+  .tooth:after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px 10px 0 0;
+    background: #191919;
+  }
+
+  .tooth {
+    top: 20px;
+    left: 35px;
+  }
+
+  .tooth:before {
+    right: 15px;
+  }
+
+  .tooth:after {
+    left: 15px;
+  }
+</style>
