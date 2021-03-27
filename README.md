@@ -10,6 +10,7 @@
 ## _Challenge #11_
 
 - [Pastel Logo](#Pastel-Logo)
+- [Black Lives Matter](#Black-Lives-Matter)
 
 ## _Challenge #12_
 
